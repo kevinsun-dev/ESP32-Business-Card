@@ -3,3 +3,6 @@ fp-lib-table
 .DS_Store
 /jlcpcb
 /PCB-Business-Card-backups
+/panel/gerber
+/panel/jlcpcb
+*.zip
