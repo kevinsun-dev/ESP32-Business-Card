@@ -11,14 +11,12 @@ This repository contains the KiCad hardware design files and the PlatformIO firm
 ## ⚡ Features
 
 * **Self-Hosting:** Runs a full HTTP web server directly on the card.
-* **Ultra-Thin:** Designed on a **0.8mm** PCB to meet USB-C thickness specifications.
-* **Paperless:** Integrates directly into a USB port to power up and serve content.
 * **Optimized:** Uses **LittleFS** and **GZIP compression** to serve a <14kB website with minimal latency.
-* **Cost-Effective:** BOM target under **$5** using the ESP32-C3-FH4.
+* **Cost-Effective:** BOM target under **$5** using the ESP32-C3FH4.
 
 ## 🛠 Hardware Design
 
-The hardware is designed around the **Espressif ESP32-C3-FH4**, a RISC-V microcontroller with built-in 4MB flash, chosen for its low component count and ease of use.
+The hardware is designed around the **Espressif ESP32-C3FH4**, a RISC-V microcontroller with built-in 4MB flash, chosen for its low component count and ease of use.
 
 ### Key Specs
 
@@ -38,22 +36,11 @@ The firmware is built using **PlatformIO** with the **Arduino Framework** atop *
 * **OTA Updates:** The website and firmware can be updated wirelessly without plugging the card back into a programmer.
 * **Dynamic Routing:** Automatically maps URLs (e.g., `/about`) to their corresponding compressed files (`/about.html.gz`).
 
-### Directory Structure
-
-```
-├── hardware/        # KiCad schematics and PCB layout
-├── src/             # C++ source code (main.cpp)
-├── data/            # Website files (HTML, CSS, JS) to be uploaded to LittleFS
-├── platformio.ini   # Project configuration
-└── README.md
-
-```
-
 ## 🚀 Getting Started
 
 ### 1. Build the Hardware
 
-Order the PCB using the Gerbers in `hardware/gerbers` and assemble the components listed in the BOM.
+Generate gerbers for your PCB using the KiCad files in this repository and assemble the components listed in the BOM.
 
 ### 2. Flash the Firmware
 
@@ -64,7 +51,6 @@ Order the PCB using the Gerbers in `hardware/gerbers` and assemble the component
 ```bash
 pio run --target upload
 ```
-
 
 
 ### 3. Upload the Website
