@@ -1,0 +1,3 @@
+#define WIFI_SSID "MyHouseMyRulesMyWiFi"
+#define WIFI_PWD "FOURWORDSALLLOWERCASE"
+#define OTA_PWD "72XU19yavFKeTlQ3AlWgqTnWXn8Ko1bT"

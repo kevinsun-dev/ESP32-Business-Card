@@ -507,10 +507,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "svg/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCB-Business-Card.stp",
       "svg": "",
       "vrml": ""
     },

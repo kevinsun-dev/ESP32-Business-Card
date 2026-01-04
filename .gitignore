@@ -7,3 +7,6 @@ fp-lib-table
 /panel/jlcpcb
 *.zip
 /gerber
+/svg
+/3D Models
+firmware/ESP32 Webserver Card/src/secrets.h
