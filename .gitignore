@@ -3,3 +3,10 @@ fp-lib-table
 .DS_Store
 /jlcpcb
 /PCB-Business-Card-backups
+/panel/gerber
+/panel/jlcpcb
+*.zip
+/gerber
+/svg
+/3D Models
+firmware/ESP32 Webserver Card/src/secrets.h

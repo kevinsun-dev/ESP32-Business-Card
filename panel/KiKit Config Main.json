@@ -1,0 +1,42 @@
+{
+    "layout": {
+        "hspace": "4mm",
+        "vspace": "4mm",
+        "rows": "3",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "10mm",
+        "hwidth": "12mm",
+        "vcount": "2",
+        "fillet": "1.8mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "8mm",
+        "voffset": "3.5mm",
+        "size": "1.15mm",
+        "soldermaskmargin": "2mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "3.5mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "text": "ESP32-C3 Web Server Business Card"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
